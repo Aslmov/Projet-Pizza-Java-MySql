@@ -41,11 +41,13 @@ public class Client_connect {
 			
 			while (rs.next()) {
 				System.out.println("-----------------------------------");
-				System.out.println(rs.getString("NOMCLIE"));
+			/*	System.out.println(rs.getString("NOMCLIE"));
 				System.out.println(rs.getString("PRENOMCLIE"));
-				System.out.println(rs.getString("ADRESSECLIE"));
+				System.out.println(rs.getString("ADRESSECLIE"));*/
+				Client cl = new Client(null,rs.getString("NOMCLIE"),rs.getString("NOMCLIE"),rs.getString("NOMCLIE"),null,null,null);
+				System.out.println(cl);
 			}
-			 
+			
 			
 		} catch (ClassNotFoundException e) {//si il y un probleme de driver
 		 
