@@ -41,9 +41,9 @@ public class Livreur_connect {
 			
 			while (rs.next()) {
 				System.out.println("-----------------------------------");
-				System.out.println(rs.getString("NOMLIVR"));
+				/*System.out.println(rs.getString("NOMLIVR"));
 				System.out.println(rs.getString("PRENOMLIVR"));
-				System.out.println(rs.getString("DATEEMBAUCHLIVR"));
+				System.out.println(rs.getString("DATEEMBAUCHLIVR"));*/
 				
 				Livreur l1 = new Livreur(null, rs.getString("NOMLIVR"),rs.getString("PRENOMLIVR"),rs.getString("DATEEMBAUCHLIVR"));
 				System.out.println(l1);

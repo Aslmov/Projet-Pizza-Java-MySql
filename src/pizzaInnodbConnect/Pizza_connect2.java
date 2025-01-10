@@ -47,11 +47,11 @@ public class Pizza_connect2 {
 			
 			while (rs.next()) {
 				System.out.println("-----------recup data from mysql------------------------");
-				System.out.println(rs.getString("DESIGNPIZZ"));
+				/*System.out.println(rs.getString("DESIGNPIZZ"));
 				System.out.println(rs.getFloat("TARIFPIZZ"));
 				System.out.println(rs.getInt("NROPIZZ"));
 				System.out.println(rs.getString("image1_chemin"));
-				
+				*/
 				//Pizza(String nomPizza, double prixPizza, Integer numeroPizza, String cheminImage)
 				 Pizza p1= new Pizza(rs.getString("DESIGNPIZZ"),rs.getFloat("TARIFPIZZ"),rs.getInt("NROPIZZ"),rs.getString("image1_chemin"));
 			     System.out.println(p1);//appel a la fonction tostring
