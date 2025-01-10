@@ -1,3 +1,7 @@
+Pizza Java Sql
+
+C'est projet universitaire conçu pour s'entraîner sur les bases de Languages comme Java et Sql
+
 Les différents dossiers du Programme
 
 ![image](https://github.com/user-attachments/assets/3ccdb047-9f36-4a07-8d9e-1b9091050216)
